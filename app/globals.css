@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-gray-800.overflow-hidden::after {
+    content: "";
+    position: absolute;
+    inset: 0; /* Inset covers entire element */
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0, 0, 0) 12.5%,
+      rgb(0, 0, 0) 87.5%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 1; /* Ensure overlay is on top of content */
+  }
+}
