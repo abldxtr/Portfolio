@@ -1,4 +1,4 @@
-export default function Page() {
+export default function Contact() {
   return (
     <div className="z-0 overflow-hidden  pl-0 pt-[64px] lg:pl-[240px] lg:pt-0">
       {/* <!-- contact --> */}
@@ -47,8 +47,6 @@ export default function Page() {
                 />
               </div>
 
-              {/* <!-- textarea --> */}
-              {/* <textarea name="" id="" cols="30" rows="10" className="py-[12px] px-[16px]  focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white " placeholder="Message"></textarea> */}
               <textarea
                 className="py-[12px] px-[16px] h-[264px]  focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white "
                 placeholder="Message"
