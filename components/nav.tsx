@@ -43,7 +43,7 @@ export default function Nav() {
     <div className="fixed z-30 w-full lg:h-screen lg:w-[240px] lg:border-r lg:border-token-f09a9676">
       <div className="flex h-[64px]  w-full flex-row flex-nowrap items-center justify-between border-b border-token-f09a9676 bg-token-e603e94d lg:h-full lg:flex-col lg:items-start lg:justify-start">
         {/* <!-- 1 --> */}
-        <div className="w-full border-token-f09a9676 lg:border-r-0 lg:border-b lg:border-r">
+        <div className="w-full border-token-f09a9676 lg:border-r-0 lg:border-b ">
           <div className="pl-[24px] lg:p-[32px]">
             <a href="#" className="group">
               <h3 className="text-[20px] font-normal leading-[1.2em] text-white transition group-hover:text-token-e0fac5c4">

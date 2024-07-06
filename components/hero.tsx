@@ -31,14 +31,14 @@ export default function Hero() {
       <div className="flex max-w-[800px] flex-col gap-[16px]">
         <div>
           <h1 className="font-Outfit text-[40px] font-normal text-white">
-            Heyo, I'm abolfazl — a senior product designer based in earth
+            Heyo, I'm abolfazl — a senior Front-End developer based in iran
           </h1>
         </div>
         <div>
           <h4 className="font-Outfit text-[18px] font-light text-[#8c8c8c]">
-            In the last 9 years, I've specialized in web and iOS apps for
-            clients ranging from startups to Fortune 500 companies, and
-            everything in between. I'm currently working with the dope folks at
+            In the last 5 years, I've specialized in web and android apps for
+            clients ranging from startups to Fortune 5 companies, and everything
+            in between.
           </h4>
         </div>
       </div>
