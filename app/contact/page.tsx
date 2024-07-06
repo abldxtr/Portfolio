@@ -10,16 +10,17 @@ export default function Contact() {
           {/* <!-- 1 --> */}
           <div className=" flex flex-col gap-[16px]   ">
             <h1 className="text-white text-[40px] font-normal font-Outfit  ">
-              Let's Chat
+              Lets Chat
             </h1>
 
             <div>
               <p className=" text-[16px] font-light font-Outfit text-[rgb(128,128,128)] ">
-                If you'd like to talk about a potential project or just say hi,
-                send me a message or email me at{" "}
+                If you would like to talk about a potential project or just say
+                hi, send me a message or email me at{" "}
               </p>
+              {/* mailto:abol.dexter@gmail.com */}
               <a
-                href="mailto:abol.dexter@gmail.com"
+                href="/"
                 className="hover:text-token-e0fac5c4 text-white transition  "
               >
                 abol.dexter@gmail.com
