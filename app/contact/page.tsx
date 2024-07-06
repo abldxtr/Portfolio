@@ -23,7 +23,7 @@ export default function Contact() {
                 href="/"
                 className="hover:text-token-e0fac5c4 text-white transition  "
               >
-                abol.dexter@gmail.com
+                abol.dexter
               </a>
             </div>
           </div>
