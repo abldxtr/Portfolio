@@ -1,27 +1,31 @@
-export default function Page() {
+"use client";
+
+export default function Contact() {
   return (
     <div className="z-0 overflow-hidden  pl-0 pt-[64px] lg:pl-[240px] lg:pt-0">
       {/* <!-- contact --> */}
-      <div className="flex flex-col mx-auto gap-[48px] p-[48px] pb-[160px] w-full max-w-[800px] ">
+      <div className="flex flex-col mx-auto gap-[48px] md:p-[48px] p-[28px] pb-[160px] w-full max-w-[800px] ">
         {/* <!-- 1 title and titr --> */}
+        {/* ddd */}
 
         <div className=" w-full flex flex-col gap-[48px] ">
           {/* <!-- 1 --> */}
           <div className=" flex flex-col gap-[16px]   ">
             <h1 className="text-white text-[40px] font-normal font-Outfit  ">
-              Let`&apos;`s Chat
+              Lets Chat
             </h1>
 
             <div>
               <p className=" text-[16px] font-light font-Outfit text-[rgb(128,128,128)] ">
-                If you`&apos;`d like to talk about a potential project or just
-                say hi, send me a message or email me at{" "}
+                If you would like to talk about a potential project or just say
+                hi, send me a message or email me at{" "}
               </p>
+              {/* mailto:abol.dexter@gmail.com */}
               <a
-                href="mailto:abol.dexter@gmail.com"
+                href="/"
                 className="hover:text-token-e0fac5c4 text-white transition  "
               >
-                abol.dexter@gmail.com
+                abol.dexter
               </a>
             </div>
           </div>
@@ -32,7 +36,7 @@ export default function Page() {
             <div className=" w-full flex flex-col gap-[16px]  ">
               {/* <!-- 2field --> */}
 
-              <div className="flex items-center gap-[16px] w-full ">
+              <div className="flex flex-col sm:flex-row items-center gap-[16px] w-full ">
                 <input
                   type="text"
                   className="py-[12px] focus-within:outline-none w-full px-[16px] font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white [box-shadow:inset_0_0_0_1px_transparent]  "
@@ -41,15 +45,13 @@ export default function Page() {
 
                 <input
                   type="text"
-                  className="py-[12px] px-[16px] focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white  "
+                  className="py-[12px] px-[16px] focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white [box-shadow:inset_0_0_0_1px_transparent]  "
                   placeholder="Email"
                 />
               </div>
 
-              {/* <!-- textarea --> */}
-              {/* <textarea name="" id="" cols="30" rows="10" className="py-[12px] px-[16px]  focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white " placeholder="Message"></textarea> */}
               <textarea
-                className="py-[12px] px-[16px]  focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white "
+                className="py-[12px] px-[16px] h-[264px]  focus-within:outline-none w-full  font-Outfit rounded-[4px] bg-token-76df4f11 text-[16px] font-normal text-white "
                 placeholder="Message"
               />
               {/* <!-- buttom --> */}
